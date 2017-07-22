@@ -1,2 +1,0 @@
-
-window.Pong = require('./Pong');

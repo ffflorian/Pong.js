@@ -8,6 +8,7 @@
     "watch": "watchify src/index.js -o build/Pong.js"
   },
   "dependencies": {
+    "@types/node": "^8.0.14",
     "deep-extend": "0.5.x",
     "event-emitter": "0.3.x",
     "game-loop": "0.0.x",
@@ -23,6 +24,8 @@
   "license": "BSD-2-Clause",
   "devDependencies": {
     "browserify": "14.4.0",
+    "typescript": "^2.4.2",
     "watchify": "3.9.0"
-  }
+  },
+  "types": "./build/index.d.ts"
 }
